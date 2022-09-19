@@ -1,0 +1,47 @@
+POINT: wall10
+  Apply Instancing Transform = On
+  Colour = 1, 1, 0
+  Colour Map = Default Colour Map
+  Colour Mode = Constant
+  Colour Scale = Linear
+  Colour Variable = Pressure
+  Colour Variable Boundary Values = Conservative
+  Culling Mode = No Culling
+  Domain List = /DOMAIN GROUP:All Domains
+  Draw Faces = On
+  Draw Lines = Off
+  Instancing Transform = /DEFAULT INSTANCE TRANSFORM:Default Transform
+  Lighting = On
+  Line Width = 2
+  Max = 0.0
+  Min = 0.0
+  Node Number = 1
+  Option = XYZ
+  Point = 111.1 [mm], 0 [mm], 0 [mm]
+  Point Symbol = Crosshair
+  Range = Global
+  Specular Lighting = On
+  Surface Drawing = Smooth Shading
+  Symbol Size = 1.0
+  Transparency = 0.0
+  Variable = Pressure
+  Variable Boundary Values = Conservative
+  Visibility = On
+  OBJECT VIEW TRANSFORM: 
+    Apply Reflection = Off
+    Apply Rotation = Off
+    Apply Scale = Off
+    Apply Translation = Off
+    Principal Axis = Z
+    Reflection Plane Option = XY Plane
+    Rotation Angle = 0.0 [degree]
+    Rotation Axis From = 0 [mm], 0 [mm], 0 [mm]
+    Rotation Axis To = 0 [mm], 0 [mm], 0 [mm]
+    Rotation Axis Type = Principal Axis
+    Scale Vector = 1 , 1 , 1
+    Translation Vector = 0 [mm], 0 [mm], 0 [mm]
+    X = 0.0 [mm]
+    Y = 0.0 [mm]
+    Z = 0.0 [mm]
+  END
+END
